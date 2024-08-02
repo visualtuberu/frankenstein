@@ -1,0 +1,11 @@
+{
+    "name": "ivan/frank01",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "larapack/dd": "^1.1"
+    }
+}
