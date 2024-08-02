@@ -6,6 +6,10 @@ use App\View\View;
 class PagesController
 {
 
+    public function index(): void
+    {
+        View::show('home');
+    }
     public function home(): void
     {
         View::show('home');
